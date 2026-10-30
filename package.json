@@ -1,0 +1,10 @@
+{
+  "name": "abf-demo-client",
+  "version": "1.0.0",
+  "description": "Minimal dependency-free MCP client for Agent Bounty Feed (list_bounties / get_feed_stats) over Streamable HTTP.",
+  "type": "module",
+  "bin": { "abf-demo-client": "./client.mjs" },
+  "scripts": { "start": "node client.mjs", "stats": "node client.mjs stats" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
